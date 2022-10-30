@@ -12,7 +12,6 @@
 		A99C4C66290F151B008EA162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99C4C65290F151B008EA162 /* Assets.xcassets */; };
 		A99C4C69290F151B008EA162 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99C4C68290F151B008EA162 /* Preview Assets.xcassets */; };
 		A99C4C71290F1547008EA162 /* SwiftCharts in Frameworks */ = {isa = PBXBuildFile; productRef = A99C4C70290F1547008EA162 /* SwiftCharts */; };
-		A99C4C73290F1E32008EA162 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A99C4C72290F1E32008EA162 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +20,6 @@
 		A99C4C63290F151A008EA162 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A99C4C65290F151B008EA162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A99C4C68290F151B008EA162 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A99C4C72290F1E32008EA162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +57,6 @@
 				A99C4C63290F151A008EA162 /* ContentView.swift */,
 				A99C4C65290F151B008EA162 /* Assets.xcassets */,
 				A99C4C67290F151B008EA162 /* Preview Content */,
-				A99C4C72290F1E32008EA162 /* Info.plist */,
 			);
 			path = BillTestApp;
 			sourceTree = "<group>";
@@ -138,7 +135,6 @@
 			files = (
 				A99C4C69290F151B008EA162 /* Preview Assets.xcassets in Resources */,
 				A99C4C66290F151B008EA162 /* Assets.xcassets in Resources */,
-				A99C4C73290F1E32008EA162 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +277,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BillTestApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5K844XFC6W;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,8 +306,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BillTestApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5K844XFC6W;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
