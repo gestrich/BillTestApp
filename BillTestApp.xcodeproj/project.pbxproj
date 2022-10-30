@@ -11,8 +11,8 @@
 		A99C4C64290F151A008EA162 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C4C63290F151A008EA162 /* ContentView.swift */; };
 		A99C4C66290F151B008EA162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99C4C65290F151B008EA162 /* Assets.xcassets */; };
 		A99C4C69290F151B008EA162 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99C4C68290F151B008EA162 /* Preview Assets.xcassets */; };
-		A99C4C71290F1547008EA162 /* SwiftCharts in Frameworks */ = {isa = PBXBuildFile; productRef = A99C4C70290F1547008EA162 /* SwiftCharts */; };
-		A99C4C75290F26E7008EA162 /* SwiftCharts in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A99C4C70290F1547008EA162 /* SwiftCharts */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A99C4C79290F28CB008EA162 /* SwiftCharts in Frameworks */ = {isa = PBXBuildFile; productRef = A99C4C78290F28CB008EA162 /* SwiftCharts */; };
+		A99C4C7A290F28D2008EA162 /* SwiftCharts in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A99C4C78290F28CB008EA162 /* SwiftCharts */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,7 +22,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A99C4C75290F26E7008EA162 /* SwiftCharts in Embed Frameworks */,
+				A99C4C7A290F28D2008EA162 /* SwiftCharts in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A99C4C71290F1547008EA162 /* SwiftCharts in Frameworks */,
+				A99C4C79290F28CB008EA162 /* SwiftCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 			);
 			name = BillTestApp;
 			packageProductDependencies = (
-				A99C4C70290F1547008EA162 /* SwiftCharts */,
+				A99C4C78290F28CB008EA162 /* SwiftCharts */,
 			);
 			productName = BillTestApp;
 			productReference = A99C4C5E290F151A008EA162 /* BillTestApp.app */;
@@ -135,7 +135,7 @@
 			);
 			mainGroup = A99C4C55290F151A008EA162;
 			packageReferences = (
-				A99C4C6F290F1547008EA162 /* XCRemoteSwiftPackageReference "SwiftCharts" */,
+				A99C4C77290F28CB008EA162 /* XCRemoteSwiftPackageReference "SwiftCharts" */,
 			);
 			productRefGroup = A99C4C5F290F151A008EA162 /* Products */;
 			projectDirPath = "";
@@ -369,7 +369,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A99C4C6F290F1547008EA162 /* XCRemoteSwiftPackageReference "SwiftCharts" */ = {
+		A99C4C77290F28CB008EA162 /* XCRemoteSwiftPackageReference "SwiftCharts" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ivanschuetz/SwiftCharts";
 			requirement = {
@@ -380,9 +380,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A99C4C70290F1547008EA162 /* SwiftCharts */ = {
+		A99C4C78290F28CB008EA162 /* SwiftCharts */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A99C4C6F290F1547008EA162 /* XCRemoteSwiftPackageReference "SwiftCharts" */;
+			package = A99C4C77290F28CB008EA162 /* XCRemoteSwiftPackageReference "SwiftCharts" */;
 			productName = SwiftCharts;
 		};
 /* End XCSwiftPackageProductDependency section */
