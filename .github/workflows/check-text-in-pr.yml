@@ -29,7 +29,7 @@ jobs:
           REQUIRED_TEXTS=("unit tests added" "documentation updated")
           for text in "${REQUIRED_TEXTS[@]}"; do
             if [[ "${{ steps.pr.outputs.body }}" != *"$text"* ]]; then
-              echo "Error: Missing required text '$text' in the PR description. ${{ steps.pr.outputs.body }}"
+              echo "Error: Missing required text '$text' in the PR description. ${{ github.event.pull_request.body }}"
               exit 1
             fi
           done
